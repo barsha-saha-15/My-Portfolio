@@ -1,11 +1,10 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-
 export default function ContactPage(){
     return(
-        <>
-        <Header/>
-        <main className="pt-24 px-6 max-w-xl mx-auto">
+        <div className="min-h-screen flex flex-col">
+       <Header/>
+        <main className="flex-1 pt-24 px-6 max-w-xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
             <form className="flex flex-col gap-4">
                 <input type="text" placeholder="Barsha Saha" className="p-2 bord rounded"/>
@@ -15,13 +14,19 @@ export default function ContactPage(){
 
                 </button>
 
-
             </form>
-
+    
+            <div className="mt-8 text-center">
+            <a href="https://github.com/barsha-saha-15"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >👉 Visit my GitHub Profile
+          </a>
+        </div>
         </main>
         <Footer/>
-          
-        </>
+        </div>
     )
 
 }
