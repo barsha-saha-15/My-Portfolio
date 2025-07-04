@@ -36,7 +36,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="max-w-6xl mx-auto p-6 mt-10">
-      <h1 className="text-3xl font-bold mb-6">My Projects</h1>
+      <h1 className="text-3xl font-bold mb-6 mt-4">My Projects</h1>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
           <div

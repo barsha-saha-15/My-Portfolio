@@ -10,11 +10,12 @@ export default function HomePage() {
         <div className="space-y-4">
           <p className="text-orange-500 text-sm font-medium uppercase tracking-wide">Hi, I'm Barsha Saha</p>
           <h4 className="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed">
-            A passionate <span className="text-blue-600 font-bold">Software Engineer</span> with a background in
-            <span className="text-blue-600 font-bold"> Computer Science</span> and expertise in
-            <span className="text-green-600 font-bold"> Software Quality Assurance (SQA)</span>.
+           A passionate <span className="text-green-600 font-bold">Full Stack Web Developer</span> and 
+          <span className="text-blue-600 font-bold"> Software Engineer</span> with a background in
+          <span className="text-blue-600 font-bold"> Computer Science</span> and expertise in
+          <span className="text-green-600 font-bold"> Software Quality Assurance (SQA)</span>.
           </h4>
-
+   
           <p className="text-gray-600 text-sm leading-relaxed">
             I enjoy building clean, user-friendly, and responsive applications. I focus on both functionality and aesthetics to ensure a smooth user experience.
           </p>

@@ -3,10 +3,10 @@
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto p-6 mt-10 space-y-6">
-      <h1 className="text-3xl font-bold mb-4">About Me</h1>
+      <h1 className="text-3xl font-bold mb-4 mt-4">About Me</h1>
 
       <p className="text-lg">
-        I'm a <strong>Computer Science graduate</strong>, a passionate <span className="text-blue-600 font-semibold">Full Stack Developer</span>, and a skilled <span className="text-green-600 font-semibold">Software Quality Assurance Engineer</span>.
+        I'm a <strong>Computer Science graduate  from <span className="text-orange-600 font-semibold">UNITED INTERNATIONAL UNIVERSITY</span></strong>, a passionate <span className="text-blue-600 font-semibold">Full Stack Developer</span>, and a skilled <span className="text-green-600 font-semibold">Software Quality Assurance Engineer</span>.
       </p>
 
       <p className="text-lg">
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold mb-2">🧪 Software QA & Testing Skills</h2>
         <ul className="list-disc list-inside space-y-1 text-gray-700">
           <li>Manual & Automated Testing</li>
-          <li>API Testing with <strong>Postman & Newman</strong></li>
+          <li>API Testing with <strong>Postman</strong></li>
           <li>Load Testing with <strong>Apache JMeter</strong></li>
           <li>Functional & Non-Functional Testing</li>
           <li>Bug Reporting & Test Case Design</li>
