@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     },
     {
       title: 'Todo App',
-      tech: ['Next.js', 'Tailwind CSS', 'React Hooks'], // ✅ add tech
+      tech: ['Next.js', 'Tailwind CSS', 'React Hooks'],
       description: 'A fully functional CRUD Todo app using Next.js, Tailwind CSS and React hooks.',
       github: 'https://github.com/barsha-saha-15/My-TodoAPP',
     },
@@ -45,7 +45,6 @@ export default function ProjectsPage() {
           >
             <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
 
-            {/* ✅ Tech check before join */}
             {project.tech && (
               <p className="text-sm text-gray-500 mb-2">
                 {project.tech.join(' • ')}
@@ -64,16 +63,7 @@ export default function ProjectsPage() {
                   GitHub
                 </a>
               )}
-              {project.live && (
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-600 underline"
-                >
-                  Live Demo
-                </a>
-              )}
+              {/* Removed the project.live check */}
             </div>
           </div>
         ))}
@@ -81,3 +71,4 @@ export default function ProjectsPage() {
     </div>
   );
 }
+
