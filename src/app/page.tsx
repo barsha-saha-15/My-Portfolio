@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         {/* Left Side Text */}
         <div className="space-y-4">
-          <p className="text-orange-500 text-sm font-medium uppercase tracking-wide">Hi, I'm Barsha Saha</p>
+          <p className="text-orange-500 text-sm font-medium uppercase tracking-wide">Hi, I&apos;m Barsha Saha</p>
           <h4 className="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed">
            A passionate <span className="text-green-600 font-bold">Full Stack Web Developer</span> and 
           <span className="text-blue-600 font-bold"> Software Engineer</span> with a background in

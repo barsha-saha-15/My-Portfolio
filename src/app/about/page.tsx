@@ -6,7 +6,7 @@ export default function AboutPage() {
       <h1 className="text-3xl font-bold mb-4 mt-4">About Me</h1>
 
       <p className="text-lg">
-        I'm a <strong>Computer Science graduate  from <span className="text-orange-600 font-semibold">UNITED INTERNATIONAL UNIVERSITY</span></strong>, a passionate <span className="text-blue-600 font-semibold">Full Stack Developer</span>, and a skilled <span className="text-green-600 font-semibold">Software Quality Assurance Engineer</span>.
+        I&apos; m a <strong>Computer Science graduate  from <span className="text-orange-600 font-semibold">UNITED INTERNATIONAL UNIVERSITY</span></strong>, a passionate <span className="text-blue-600 font-semibold">Full Stack Developer</span>, and a skilled <span className="text-green-600 font-semibold">Software Quality Assurance Engineer</span>.
       </p>
 
       <p className="text-lg">

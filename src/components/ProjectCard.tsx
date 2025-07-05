@@ -1,6 +1,6 @@
 type ProjectProps ={
-    title: String;
-    description: String;
+    title: string;
+    description: string;
 }
 export default function ProjectCard ({title,description}: ProjectProps){
     return (
